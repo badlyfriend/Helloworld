@@ -14,7 +14,7 @@ public class MyUtil {
     public static String arrayToString(String[] hobbies) {
         String str = "";
         for (String hobby : hobbies) {
-            str += "," + hobby;
+            str += "," + hobby;//dfdfdf
         }
         return str.substring(1);
     }
