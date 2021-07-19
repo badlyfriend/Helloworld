@@ -53,7 +53,8 @@ public class StudentServlet extends BaseServlet {
         int i = ss.insertStudent(student);
 
         if(i > 0) {
-            req.getRequestDispatcher("studentServlet?mark=queryStudent").forward(req,resp);
+//            req.getRequestDispatcher("studentServlet?mark=queryStudent").forward(req,resp);
+            resp.sendRedirect("index.jsp");
         }else {
             System.out.println("添加失败");
         }
