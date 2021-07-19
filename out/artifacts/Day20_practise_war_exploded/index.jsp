@@ -20,7 +20,7 @@
     $("button:first").click(function() {
         location.href="student_insert.jsp";
     })
-    $("button:eq(1)").click(function() {
-        location.href="studentServlet?mark=queryStudent";
-    })
+    // $("button:eq(1)").click(function() {
+    //     location.href="studentServlet?mark=queryStudent";
+    // })
 </script>

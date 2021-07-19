@@ -10,7 +10,6 @@ import java.sql.SQLException;
  * @Create 2021-07-18-19:03
  */
 public class StudentDao {
-    private MyUtil myUtil = new MyUtil();
     public int insertStudent(Student s) {
         String sql = "insert into student values(?,?,?,?,?,?)";
         Object[] obj = {null,s.getSname(),s.getSex(),s.getSbir(),s.getHobby(),s.getPhoto()};
